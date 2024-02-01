@@ -1,0 +1,42 @@
+.story_box{
+    height: 100px;
+}
+
+.Story-container{
+    display: flex;
+    position: absolute;
+    /* gap: 10px;
+    column-gap: 60px; */
+    width: 97%;
+    height: 78%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summarie_btn{
+    height: fit-content;
+    padding: 10px;
+    font-size: 22px;
+    background: var(--cardBG);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.textarea_container{
+    resize: none;
+    height: 80%;
+    width: 40%;
+    font-weight: 400;
+    font-family: inherit;
+    font-size: 20px;
+    background: var(--cardBG);
+    color: white;
+    border-radius: 5px;
+}
+
+.story_box{
+    padding: 10px;
+
+}
